@@ -29,6 +29,7 @@ public class UserRestController {
 
     @GetMapping("/{userNo}")
     public ResponseEntity<UserDto> getUserByuserNo(@PathVariable String userNo) {
+        userNo = userNo + "9999";
         UserDto userDto = userService.getUserByuserNo(userNo);
         return ResponseEntity.ok(userDto);
     }

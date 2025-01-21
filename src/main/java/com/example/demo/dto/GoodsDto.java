@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserDto {
-    private String userNo;
-    private String userName;
+public class GoodsDto {
+    private String goodsNo;
+    private String goodsName;
 }

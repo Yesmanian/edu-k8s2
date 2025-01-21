@@ -1,5 +1,5 @@
 ## 워크플로우 이름 정의
-name: Java CI with Gradle
+name: Goods CI
 
 ## 워크플로우 실행을 trigger 시키는 이벤트 설정
 # workflow_dispatch : 수동으로 실행

@@ -28,6 +28,13 @@ public class GoodsRestController {
     @Autowired
     private GoodsService userService;
 
+    @GetMapping("/")
+    public String healthCheck() {
+        // 간단하게 OK 문자열만 응답
+        return "OK";
+    }
+
+
     @GetMapping("/{goodsNo}")
     public ResponseEntity<GoodsDto> getGoodsByGoodsNo(@PathVariable String goodsNo) {
         GoodsDto goodsDto = userService.getUserByuserNo(goodsNo);

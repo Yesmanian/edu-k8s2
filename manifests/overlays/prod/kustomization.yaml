@@ -9,5 +9,7 @@ patchesStrategicMerge:
 - deployment.yaml
 - ingress.yaml
 images:
+- name: iankim91/k8s-goods
+  newTag: "202501211604"
 - name: ydcho0902/k8s-edu
   newTag: "202501191311"
